@@ -1,0 +1,549 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="scPCsContent2.SplitterDistance" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="tpPrincipleComponents.Text" xml:space="preserve">
+    <value>Главные компоненты</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tlpMatricesContent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>486, 432</value>
+  </data>
+  <data name="tpMatrices.Size" type="System.Drawing.Size, System.Drawing">
+    <value>496, 442</value>
+  </data>
+  <data name="newToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="openToolStripMenuItem.Text" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="recentToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="saveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="saveToolStripMenuItem.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 6</value>
+  </data>
+  <data name="closeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="closeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 6</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 6</value>
+  </data>
+  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Выход </value>
+  </data>
+  <data name="projectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 24</value>
+  </data>
+  <data name="projectToolStripMenuItem.Text" xml:space="preserve">
+    <value>Сессия</value>
+  </data>
+  <data name="importToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 22</value>
+  </data>
+  <data name="importToolStripMenuItem.Text" xml:space="preserve">
+    <value>Импорт</value>
+  </data>
+  <data name="exportToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 22</value>
+  </data>
+  <data name="dataToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 24</value>
+  </data>
+  <data name="inputDataToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 22</value>
+  </data>
+  <data name="centeredToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 22</value>
+  </data>
+  <data name="centeredToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Центрированные</value>
+  </data>
+  <data name="standartizedToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 22</value>
+  </data>
+  <data name="standartizedToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Стандартизованные</value>
+  </data>
+  <data name="principleComponentsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 22</value>
+  </data>
+  <data name="proportionsVisualizationToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 22</value>
+  </data>
+  <data name="proportionsVisualizationToolStripMenuItem2.Text" xml:space="preserve">
+    <value>Визуализация вклада</value>
+  </data>
+  <data name="distributionVisualizationToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 22</value>
+  </data>
+  <data name="distributionVisualizationToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Визуализация распределения</value>
+  </data>
+  <data name="matricesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 22</value>
+  </data>
+  <data name="matricesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Матрицы</value>
+  </data>
+  <data name="covarianceToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 22</value>
+  </data>
+  <data name="covarianceToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Ковариации</value>
+  </data>
+  <data name="correlationToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 22</value>
+  </data>
+  <data name="correlationToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Корреляции</value>
+  </data>
+  <data name="eigenvectorsToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 22</value>
+  </data>
+  <data name="eigenvectorsToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Собственные векторы</value>
+  </data>
+  <data name="showToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 22</value>
+  </data>
+  <data name="showToolStripMenuItem.Text" xml:space="preserve">
+    <value>Отображать</value>
+  </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 6</value>
+  </data>
+  <data name="preferencesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 22</value>
+  </data>
+  <data name="preferencesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Опции</value>
+  </data>
+  <data name="viewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 24</value>
+  </data>
+  <data name="viewToolStripMenuItem.Text" xml:space="preserve">
+    <value>Вид</value>
+  </data>
+  <data name="viewHelpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 22</value>
+  </data>
+  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 6</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 22</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>О программе</value>
+  </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 24</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Справка</value>
+  </data>
+  <data name="inputDataToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 22</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Анализ компонент</value>
+  </data>
+  <data name="tpInputData.Text" xml:space="preserve">
+    <value>Входные данные</value>
+  </data>
+  <data name="tpEigenvectors.Text" xml:space="preserve">
+    <value>Собственные векторы</value>
+  </data>
+  <data name="tpPCAProportionsVisualization.Text" xml:space="preserve">
+    <value>Визуализация вклада</value>
+  </data>
+  <data name="pcaToolStripMenuItem.Text" xml:space="preserve">
+    <value>АГК</value>
+  </data>
+  <data name="tpOriginal.Text" xml:space="preserve">
+    <value>Исходные</value>
+  </data>
+  <data name="tpPCADistributionVisualization.Text" xml:space="preserve">
+    <value>Визуализация распределения</value>
+  </data>
+  <data name="createToolStripMenuItem.Text" xml:space="preserve">
+    <value>Новая</value>
+  </data>
+  <data name="emailToolStripMenuItem.Text" xml:space="preserve">
+    <value>Почта</value>
+  </data>
+  <data name="exportToolStripMenuItem.Text" xml:space="preserve">
+    <value>Экспорт</value>
+  </data>
+  <data name="imageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Изображение</value>
+  </data>
+  <data name="inputToolStripMenuItem.Text" xml:space="preserve">
+    <value>Входные данные</value>
+  </data>
+  <data name="outputToolStripMenuItem.Text" xml:space="preserve">
+    <value>Выходные данные</value>
+  </data>
+  <data name="PDFToolStripMenuItem.Text" xml:space="preserve">
+    <value>PDF</value>
+  </data>
+  <data name="performPCAToolStripMenuItem.Text" xml:space="preserve">
+    <value>Выполнить АГК</value>
+  </data>
+  <data name="printToolStripMenuItem.Text" xml:space="preserve">
+    <value>Печать</value>
+  </data>
+  <data name="removeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Стереть</value>
+  </data>
+  <data name="shareToolStripMenuItem.Text" xml:space="preserve">
+    <value>Отправить</value>
+  </data>
+  <data name="toolStripButtonPerformKPCA.Text" xml:space="preserve">
+    <value>Выполнить Ядровой АГК</value>
+  </data>
+  <data name="toolStripButtonPerformPCA.Text" xml:space="preserve">
+    <value>Выполнить АГК</value>
+  </data>
+  <data name="recentsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Недавние</value>
+  </data>
+  <data name="ProjectFiles" xml:space="preserve">
+    <value>Файлы проектов</value>
+  </data>
+  <data name="ofdProject.Title" xml:space="preserve">
+    <value>Проект...</value>
+  </data>
+  <data name="colIndex.HeaderText" xml:space="preserve">
+    <value>Индекс</value>
+  </data>
+  <data name="colLength.HeaderText" xml:space="preserve">
+    <value>Длина</value>
+  </data>
+  <data name="colMin.HeaderText" xml:space="preserve">
+    <value>Минимум</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn10.HeaderText" xml:space="preserve">
+    <value>Мода</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn11.HeaderText" xml:space="preserve">
+    <value>Вариация</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn12.HeaderText" xml:space="preserve">
+    <value>Максимум</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn6.HeaderText" xml:space="preserve">
+    <value>Колонка</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn7.HeaderText" xml:space="preserve">
+    <value>Среднее</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn8.HeaderText" xml:space="preserve">
+    <value>Стандартное отклонение</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn9.HeaderText" xml:space="preserve">
+    <value>Медиана</value>
+  </data>
+  <data name="performKPCAToolStripMenuItem.Text" xml:space="preserve">
+    <value>Выполнить Ядерный АГК</value>
+  </data>
+  <data name="tpCentered.Text" xml:space="preserve">
+    <value>Центрированные</value>
+  </data>
+  <data name="tpCorrelation.Text" xml:space="preserve">
+    <value>Корреляции</value>
+  </data>
+  <data name="tpCovariance.Text" xml:space="preserve">
+    <value>Ковариации</value>
+  </data>
+  <data name="tpStandartized.Text" xml:space="preserve">
+    <value>Стандартизованные</value>
+  </data>
+  <data name="viewHelpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Помощь</value>
+  </data>
+  <data name="tpMeasures.Text" xml:space="preserve">
+    <value>Замеры</value>
+  </data>
+  <data name="tpPCA.Text" xml:space="preserve">
+    <value>Анализ главных компонент (АГК)</value>
+  </data>
+  <data name="analysisToolStripMenuItem.Text" xml:space="preserve">
+    <value>Анализ</value>
+  </data>
+  <data name="ProjectFileNotExists" xml:space="preserve">
+    <value>Запрашиваемый файл проекта не найден</value>
+  </data>
+  <data name="tpFrequencies.Text" xml:space="preserve">
+    <value>Частотность</value>
+  </data>
+  <data name="tpKPCA.Text" xml:space="preserve">
+    <value>Ядерный анализ главных компонент (Ядерный АГК)</value>
+  </data>
+  <data name="tpKPCA_DistributionVisualization.Text" xml:space="preserve">
+    <value>Визуализация распределения</value>
+  </data>
+  <data name="tpKPCA_Eigenvectors.Text" xml:space="preserve">
+    <value>Собственные векторы</value>
+  </data>
+  <data name="tpKPCA_PrincipleComponents.Text" xml:space="preserve">
+    <value>Главные компоненты</value>
+  </data>
+  <data name="tpKPCA_ProportionsVisualization.Text" xml:space="preserve">
+    <value>Визуализация вклада</value>
+  </data>
+  <data name="tpKPCA_ScatterPlot.Text" xml:space="preserve">
+    <value>Распределение на плоскости</value>
+  </data>
+  <data name="tpPCA_PrincipleComponents.Text" xml:space="preserve">
+    <value>Главные компоненты</value>
+  </data>
+  <data name="tpPCA_ProportionsVisualization.Text" xml:space="preserve">
+    <value>Визуализация вклада</value>
+  </data>
+  <data name="tpPCA_DistributionVisualization.Text" xml:space="preserve">
+    <value>Визуализация распределения</value>
+  </data>
+  <data name="tpPCA_Eigenvectors.Text" xml:space="preserve">
+    <value>Собственные векторы</value>
+  </data>
+  <data name="tpPCA_Correlation.Text" xml:space="preserve">
+    <value>Корреляции</value>
+  </data>
+  <data name="tpPCA_Covariance.Text" xml:space="preserve">
+    <value>Ковариации</value>
+  </data>
+  <data name="MainFormTitle" xml:space="preserve">
+    <value>Анализ компонент</value>
+  </data>
+  <data name="analysisShareToolStripMenuItem.Text" xml:space="preserve">
+    <value>Поделиться</value>
+  </data>
+  <data name="tpUSP.Text" xml:space="preserve">
+    <value>Проекция в глобальном пространстве</value>
+  </data>
+  <data name="universalSpaceProjectionToolStripMenuItem.Text" xml:space="preserve">
+    <value>Проекция в глобальном пространстве</value>
+  </data>
+  <data name="uspRemoveToolStripMenuItem.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="analysisRemoveToolStripMenuItem.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="analysisPrintToolStripMenuItem.Text" xml:space="preserve">
+    <value>Печать</value>
+  </data>
+  <data name="uspProjectToolStripMenuItem.Text" xml:space="preserve">
+    <value>Спроектировать</value>
+  </data>
+  <data name="analysisPDFToolStripMenuItem.Text" xml:space="preserve">
+    <value>PDF</value>
+  </data>
+  <data name="analysisOutputToolStripMenuItem.Text" xml:space="preserve">
+    <value>Выходные данные</value>
+  </data>
+  <data name="analysisExportToolStripMenuItem.Text" xml:space="preserve">
+    <value>Экспорт</value>
+  </data>
+  <data name="analysisImageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Изображение</value>
+  </data>
+  <data name="analysisImportToolStripMenuItem.Text" xml:space="preserve">
+    <value>Импорт</value>
+  </data>
+  <data name="uspImportToolStripMenuItem.Text" xml:space="preserve">
+    <value>Импорт</value>
+  </data>
+  <data name="tpAnalysis.Text" xml:space="preserve">
+    <value>Анализ</value>
+  </data>
+  <data name="tpUSP3D.Text" xml:space="preserve">
+    <value>2D</value>
+  </data>
+  <data name="tpUSP2D.Text" xml:space="preserve">
+    <value>3D</value>
+  </data>
+  <data name="analysisEmailToolStripMenuItem.Text" xml:space="preserve">
+    <value>Отправить по почте</value>
+  </data>
+  <data name="uspInputToolStripMenuItem.Text" xml:space="preserve">
+    <value>Входные данные</value>
+  </data>
+  <data name="analysisInputToolStripMenuItem.Text" xml:space="preserve">
+    <value>Входные данные</value>
+  </data>
+  <data name="tpAnalysisInputData.Text" xml:space="preserve">
+    <value>Входные данные</value>
+  </data>
+  <data name="uspSampleRemoveToolStripMenuItem.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="uspUnivRemoveToolStripMenuItem.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="uspUnivImportToolStripMenuItem.Text" xml:space="preserve">
+    <value>Импорт</value>
+  </data>
+  <data name="uspSampleImportToolStripMenuItem.Text" xml:space="preserve">
+    <value>Импорт</value>
+  </data>
+  <data name="uspSampleInputToolStripMenuItem.Text" xml:space="preserve">
+    <value>Пользовательская выборка</value>
+  </data>
+  <data name="uspUnivInputToolStripMenuItem.Text" xml:space="preserve">
+    <value>Общемировые данные</value>
+  </data>
+  <data name="uspToolStripMenuItem.Text" xml:space="preserve">
+    <value>Проекция в глобальном пространстве</value>
+  </data>
+</root>

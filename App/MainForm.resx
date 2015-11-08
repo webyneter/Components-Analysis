@@ -1,0 +1,2531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dgvInputDataOriginal.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="dgvInputDataOriginal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dgvInputDataOriginal.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="dgvInputDataOriginal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 401</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dgvInputDataOriginal.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;dgvInputDataOriginal.Name" xml:space="preserve">
+    <value>dgvInputDataOriginal</value>
+  </data>
+  <data name="&gt;&gt;dgvInputDataOriginal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvInputDataOriginal.Parent" xml:space="preserve">
+    <value>tpOriginal</value>
+  </data>
+  <data name="&gt;&gt;dgvInputDataOriginal.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpOriginal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tpOriginal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 401</value>
+  </data>
+  <data name="tpOriginal.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tpOriginal.Text" xml:space="preserve">
+    <value>Original</value>
+  </data>
+  <data name="&gt;&gt;tpOriginal.Name" xml:space="preserve">
+    <value>tpOriginal</value>
+  </data>
+  <data name="&gt;&gt;tpOriginal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpOriginal.Parent" xml:space="preserve">
+    <value>tcAnalysisInputDataSubs</value>
+  </data>
+  <data name="&gt;&gt;tpOriginal.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dgvInputDataCentered.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dgvInputDataCentered.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dgvInputDataCentered.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="dgvInputDataCentered.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 401</value>
+  </data>
+  <data name="dgvInputDataCentered.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dgvInputDataCentered.Name" xml:space="preserve">
+    <value>dgvInputDataCentered</value>
+  </data>
+  <data name="&gt;&gt;dgvInputDataCentered.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvInputDataCentered.Parent" xml:space="preserve">
+    <value>tpCentered</value>
+  </data>
+  <data name="&gt;&gt;dgvInputDataCentered.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpCentered.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tpCentered.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 401</value>
+  </data>
+  <data name="tpCentered.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tpCentered.Text" xml:space="preserve">
+    <value>Centered</value>
+  </data>
+  <data name="&gt;&gt;tpCentered.Name" xml:space="preserve">
+    <value>tpCentered</value>
+  </data>
+  <data name="&gt;&gt;tpCentered.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpCentered.Parent" xml:space="preserve">
+    <value>tcAnalysisInputDataSubs</value>
+  </data>
+  <data name="&gt;&gt;tpCentered.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dgvInputDataStandartized.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dgvInputDataStandartized.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dgvInputDataStandartized.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="dgvInputDataStandartized.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 401</value>
+  </data>
+  <data name="dgvInputDataStandartized.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dgvInputDataStandartized.Name" xml:space="preserve">
+    <value>dgvInputDataStandartized</value>
+  </data>
+  <data name="&gt;&gt;dgvInputDataStandartized.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvInputDataStandartized.Parent" xml:space="preserve">
+    <value>tpStandartized</value>
+  </data>
+  <data name="&gt;&gt;dgvInputDataStandartized.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpStandartized.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tpStandartized.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 401</value>
+  </data>
+  <data name="tpStandartized.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tpStandartized.Text" xml:space="preserve">
+    <value>Standartized</value>
+  </data>
+  <data name="&gt;&gt;tpStandartized.Name" xml:space="preserve">
+    <value>tpStandartized</value>
+  </data>
+  <data name="&gt;&gt;tpStandartized.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpStandartized.Parent" xml:space="preserve">
+    <value>tcAnalysisInputDataSubs</value>
+  </data>
+  <data name="&gt;&gt;tpStandartized.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="dataGridViewTextBoxColumn6.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dataGridViewTextBoxColumn6.HeaderText" xml:space="preserve">
+    <value>Column</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn6.Width" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <metadata name="colIndex.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colIndex.HeaderText" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <metadata name="dataGridViewTextBoxColumn7.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dataGridViewTextBoxColumn7.HeaderText" xml:space="preserve">
+    <value>Mean</value>
+  </data>
+  <metadata name="dataGridViewTextBoxColumn8.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dataGridViewTextBoxColumn8.HeaderText" xml:space="preserve">
+    <value>Std Deviation</value>
+  </data>
+  <metadata name="dataGridViewTextBoxColumn9.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dataGridViewTextBoxColumn9.HeaderText" xml:space="preserve">
+    <value>Median</value>
+  </data>
+  <metadata name="dataGridViewTextBoxColumn10.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dataGridViewTextBoxColumn10.HeaderText" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <metadata name="dataGridViewTextBoxColumn11.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dataGridViewTextBoxColumn11.HeaderText" xml:space="preserve">
+    <value>Variance</value>
+  </data>
+  <metadata name="dataGridViewTextBoxColumn12.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dataGridViewTextBoxColumn12.HeaderText" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <metadata name="colMin.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colMin.HeaderText" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <metadata name="colLength.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colLength.HeaderText" xml:space="preserve">
+    <value>Length</value>
+  </data>
+  <data name="dgvMeasures.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dgvMeasures.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dgvMeasures.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="dgvMeasures.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 401</value>
+  </data>
+  <data name="dgvMeasures.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;dgvMeasures.Name" xml:space="preserve">
+    <value>dgvMeasures</value>
+  </data>
+  <data name="&gt;&gt;dgvMeasures.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvMeasures.Parent" xml:space="preserve">
+    <value>tpMeasures</value>
+  </data>
+  <data name="&gt;&gt;dgvMeasures.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpMeasures.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tpMeasures.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 401</value>
+  </data>
+  <data name="tpMeasures.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tpMeasures.Text" xml:space="preserve">
+    <value>Measures</value>
+  </data>
+  <data name="&gt;&gt;tpMeasures.Name" xml:space="preserve">
+    <value>tpMeasures</value>
+  </data>
+  <data name="&gt;&gt;tpMeasures.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpMeasures.Parent" xml:space="preserve">
+    <value>tcAnalysisInputDataSubs</value>
+  </data>
+  <data name="&gt;&gt;tpMeasures.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="dhvFrequencies.DataSource" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFVBY2NvcmQuU3RhdGlzdGljcywgVmVyc2lvbj0yLjE1LjAuMCwg
+        Q3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1mYTFhODhlMjk1NTVjY2Y3BQEAAAAqQWNjb3Jk
+        LlN0YXRpc3RpY3MuVmlzdWFsaXphdGlvbnMuSGlzdG9ncmFtBwAAAAliaW5WYWx1ZXMJYmluUmFuZ2Vz
+        E2luY2x1c2l2ZVVwcGVyQm91bmQNYmluQ29sbGVjdGlvbgpjdW11bGF0aXZlBXRpdGxlBHJ1bGUHBwAE
+        AAEECAYBN0FjY29yZC5TdGF0aXN0aWNzLlZpc3VhbGl6YXRpb25zLkhpc3RvZ3JhbUJpbkNvbGxlY3Rp
+        b24CAAAAATJBY2NvcmQuU3RhdGlzdGljcy5WaXN1YWxpemF0aW9ucy5CaW5BZGp1c3RtZW50UnVsZQIA
+        AAACAAAACQMAAAAJBAAAAAEJBQAAAAAGBgAAAAAF+f///zJBY2NvcmQuU3RhdGlzdGljcy5WaXN1YWxp
+        emF0aW9ucy5CaW5BZGp1c3RtZW50UnVsZQEAAAAHdmFsdWVfXwAIAgAAAAMAAAAPAwAAAAAAAAAIDwQA
+        AAABAAAABgAAAAAAAAAABQUAAAA3QWNjb3JkLlN0YXRpc3RpY3MuVmlzdWFsaXphdGlvbnMuSGlzdG9n
+        cmFtQmluQ29sbGVjdGlvbgEAAAAZUmVhZE9ubHlDb2xsZWN0aW9uYDErbGlzdAQvQWNjb3JkLlN0YXRp
+        c3RpY3MuVmlzdWFsaXphdGlvbnMuSGlzdG9ncmFtQmluW10CAAAAAgAAAAkIAAAABwgAAAAAAQAAAAAA
+        AAAELUFjY29yZC5TdGF0aXN0aWNzLlZpc3VhbGl6YXRpb25zLkhpc3RvZ3JhbUJpbgIAAAAL
+</value>
+  </data>
+  <data name="dhvFrequencies.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dhvFrequencies.Histogram" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFVBY2NvcmQuU3RhdGlzdGljcywgVmVyc2lvbj0yLjE1LjAuMCwg
+        Q3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1mYTFhODhlMjk1NTVjY2Y3BQEAAAAqQWNjb3Jk
+        LlN0YXRpc3RpY3MuVmlzdWFsaXphdGlvbnMuSGlzdG9ncmFtBwAAAAliaW5WYWx1ZXMJYmluUmFuZ2Vz
+        E2luY2x1c2l2ZVVwcGVyQm91bmQNYmluQ29sbGVjdGlvbgpjdW11bGF0aXZlBXRpdGxlBHJ1bGUHBwAE
+        AAEECAYBN0FjY29yZC5TdGF0aXN0aWNzLlZpc3VhbGl6YXRpb25zLkhpc3RvZ3JhbUJpbkNvbGxlY3Rp
+        b24CAAAAATJBY2NvcmQuU3RhdGlzdGljcy5WaXN1YWxpemF0aW9ucy5CaW5BZGp1c3RtZW50UnVsZQIA
+        AAACAAAACQMAAAAJBAAAAAEJBQAAAAAGBgAAAAAF+f///zJBY2NvcmQuU3RhdGlzdGljcy5WaXN1YWxp
+        emF0aW9ucy5CaW5BZGp1c3RtZW50UnVsZQEAAAAHdmFsdWVfXwAIAgAAAAMAAAAPAwAAAAAAAAAIDwQA
+        AAABAAAABgAAAAAAAAAABQUAAAA3QWNjb3JkLlN0YXRpc3RpY3MuVmlzdWFsaXphdGlvbnMuSGlzdG9n
+        cmFtQmluQ29sbGVjdGlvbgEAAAAZUmVhZE9ubHlDb2xsZWN0aW9uYDErbGlzdAQvQWNjb3JkLlN0YXRp
+        c3RpY3MuVmlzdWFsaXphdGlvbnMuSGlzdG9ncmFtQmluW10CAAAAAgAAAAkIAAAABwgAAAAAAQAAAAAA
+        AAAELUFjY29yZC5TdGF0aXN0aWNzLlZpc3VhbGl6YXRpb25zLkhpc3RvZ3JhbUJpbgIAAAAL
+</value>
+  </data>
+  <data name="dhvFrequencies.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dhvFrequencies.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="dhvFrequencies.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 401</value>
+  </data>
+  <data name="dhvFrequencies.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dhvFrequencies.Name" xml:space="preserve">
+    <value>dhvFrequencies</value>
+  </data>
+  <data name="&gt;&gt;dhvFrequencies.Type" xml:space="preserve">
+    <value>Accord.Controls.HistogramView, Accord.Controls, Version=2.15.0.0, Culture=neutral, PublicKeyToken=fa1a88e29555ccf7</value>
+  </data>
+  <data name="&gt;&gt;dhvFrequencies.Parent" xml:space="preserve">
+    <value>tpFrequencies</value>
+  </data>
+  <data name="&gt;&gt;dhvFrequencies.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpFrequencies.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tpFrequencies.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 401</value>
+  </data>
+  <data name="tpFrequencies.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tpFrequencies.Text" xml:space="preserve">
+    <value>Frequencies</value>
+  </data>
+  <data name="&gt;&gt;tpFrequencies.Name" xml:space="preserve">
+    <value>tpFrequencies</value>
+  </data>
+  <data name="&gt;&gt;tpFrequencies.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpFrequencies.Parent" xml:space="preserve">
+    <value>tcAnalysisInputDataSubs</value>
+  </data>
+  <data name="&gt;&gt;tpFrequencies.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tcAnalysisInputDataSubs.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tcAnalysisInputDataSubs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="tcAnalysisInputDataSubs.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tcAnalysisInputDataSubs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>728, 427</value>
+  </data>
+  <data name="tcAnalysisInputDataSubs.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tcAnalysisInputDataSubs.Name" xml:space="preserve">
+    <value>tcAnalysisInputDataSubs</value>
+  </data>
+  <data name="&gt;&gt;tcAnalysisInputDataSubs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tcAnalysisInputDataSubs.Parent" xml:space="preserve">
+    <value>tpAnalysisInputData</value>
+  </data>
+  <data name="&gt;&gt;tcAnalysisInputDataSubs.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpAnalysisInputData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="tpAnalysisInputData.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="tpAnalysisInputData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>738, 437</value>
+  </data>
+  <data name="tpAnalysisInputData.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tpAnalysisInputData.Text" xml:space="preserve">
+    <value>Input Data</value>
+  </data>
+  <data name="&gt;&gt;tpAnalysisInputData.Name" xml:space="preserve">
+    <value>tpAnalysisInputData</value>
+  </data>
+  <data name="&gt;&gt;tpAnalysisInputData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpAnalysisInputData.Parent" xml:space="preserve">
+    <value>tcAnalysis</value>
+  </data>
+  <data name="&gt;&gt;tpAnalysisInputData.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dgvPCA_PrincipleComponents.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dgvPCA_PrincipleComponents.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dgvPCA_PrincipleComponents.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="dgvPCA_PrincipleComponents.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 401</value>
+  </data>
+  <data name="dgvPCA_PrincipleComponents.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;dgvPCA_PrincipleComponents.Name" xml:space="preserve">
+    <value>dgvPCA_PrincipleComponents</value>
+  </data>
+  <data name="&gt;&gt;dgvPCA_PrincipleComponents.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvPCA_PrincipleComponents.Parent" xml:space="preserve">
+    <value>tpPCA_PrincipleComponents</value>
+  </data>
+  <data name="&gt;&gt;dgvPCA_PrincipleComponents.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpPCA_PrincipleComponents.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tpPCA_PrincipleComponents.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 401</value>
+  </data>
+  <data name="tpPCA_PrincipleComponents.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tpPCA_PrincipleComponents.Text" xml:space="preserve">
+    <value>Principle Components</value>
+  </data>
+  <data name="&gt;&gt;tpPCA_PrincipleComponents.Name" xml:space="preserve">
+    <value>tpPCA_PrincipleComponents</value>
+  </data>
+  <data name="&gt;&gt;tpPCA_PrincipleComponents.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpPCA_PrincipleComponents.Parent" xml:space="preserve">
+    <value>tcPCA</value>
+  </data>
+  <data name="&gt;&gt;tpPCA_PrincipleComponents.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cvPCA_ProportionsVisualization.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="cvPCA_ProportionsVisualization.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 20</value>
+  </data>
+  <data name="cvPCA_ProportionsVisualization.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="cvPCA_ProportionsVisualization.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 381</value>
+  </data>
+  <data name="cvPCA_ProportionsVisualization.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;cvPCA_ProportionsVisualization.Name" xml:space="preserve">
+    <value>cvPCA_ProportionsVisualization</value>
+  </data>
+  <data name="&gt;&gt;cvPCA_ProportionsVisualization.Type" xml:space="preserve">
+    <value>Accord.Controls.ComponentView, Accord.Controls, Version=2.15.0.0, Culture=neutral, PublicKeyToken=fa1a88e29555ccf7</value>
+  </data>
+  <data name="&gt;&gt;cvPCA_ProportionsVisualization.Parent" xml:space="preserve">
+    <value>tpPCA_ProportionsVisualization</value>
+  </data>
+  <data name="&gt;&gt;cvPCA_ProportionsVisualization.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpPCA_ProportionsVisualization.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tpPCA_ProportionsVisualization.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 20, 0, 0</value>
+  </data>
+  <data name="tpPCA_ProportionsVisualization.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 401</value>
+  </data>
+  <data name="tpPCA_ProportionsVisualization.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tpPCA_ProportionsVisualization.Text" xml:space="preserve">
+    <value>Proportions Visualization</value>
+  </data>
+  <data name="&gt;&gt;tpPCA_ProportionsVisualization.Name" xml:space="preserve">
+    <value>tpPCA_ProportionsVisualization</value>
+  </data>
+  <data name="&gt;&gt;tpPCA_ProportionsVisualization.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpPCA_ProportionsVisualization.Parent" xml:space="preserve">
+    <value>tcPCA</value>
+  </data>
+  <data name="&gt;&gt;tpPCA_ProportionsVisualization.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cvPCA_DistributionVisualization.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="cvPCA_DistributionVisualization.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 20</value>
+  </data>
+  <data name="cvPCA_DistributionVisualization.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="cvPCA_DistributionVisualization.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 381</value>
+  </data>
+  <data name="cvPCA_DistributionVisualization.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;cvPCA_DistributionVisualization.Name" xml:space="preserve">
+    <value>cvPCA_DistributionVisualization</value>
+  </data>
+  <data name="&gt;&gt;cvPCA_DistributionVisualization.Type" xml:space="preserve">
+    <value>Accord.Controls.ComponentView, Accord.Controls, Version=2.15.0.0, Culture=neutral, PublicKeyToken=fa1a88e29555ccf7</value>
+  </data>
+  <data name="&gt;&gt;cvPCA_DistributionVisualization.Parent" xml:space="preserve">
+    <value>tpPCA_DistributionVisualization</value>
+  </data>
+  <data name="&gt;&gt;cvPCA_DistributionVisualization.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpPCA_DistributionVisualization.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tpPCA_DistributionVisualization.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 20, 0, 0</value>
+  </data>
+  <data name="tpPCA_DistributionVisualization.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 401</value>
+  </data>
+  <data name="tpPCA_DistributionVisualization.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tpPCA_DistributionVisualization.Text" xml:space="preserve">
+    <value>Distribution Visualization</value>
+  </data>
+  <data name="&gt;&gt;tpPCA_DistributionVisualization.Name" xml:space="preserve">
+    <value>tpPCA_DistributionVisualization</value>
+  </data>
+  <data name="&gt;&gt;tpPCA_DistributionVisualization.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpPCA_DistributionVisualization.Parent" xml:space="preserve">
+    <value>tcPCA</value>
+  </data>
+  <data name="&gt;&gt;tpPCA_DistributionVisualization.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="dgvPCA_Eigenvectors.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dgvPCA_Eigenvectors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dgvPCA_Eigenvectors.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="dgvPCA_Eigenvectors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 401</value>
+  </data>
+  <data name="dgvPCA_Eigenvectors.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;dgvPCA_Eigenvectors.Name" xml:space="preserve">
+    <value>dgvPCA_Eigenvectors</value>
+  </data>
+  <data name="&gt;&gt;dgvPCA_Eigenvectors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvPCA_Eigenvectors.Parent" xml:space="preserve">
+    <value>tpPCA_Eigenvectors</value>
+  </data>
+  <data name="&gt;&gt;dgvPCA_Eigenvectors.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpPCA_Eigenvectors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tpPCA_Eigenvectors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 401</value>
+  </data>
+  <data name="tpPCA_Eigenvectors.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tpPCA_Eigenvectors.Text" xml:space="preserve">
+    <value>Eigenvectors</value>
+  </data>
+  <data name="&gt;&gt;tpPCA_Eigenvectors.Name" xml:space="preserve">
+    <value>tpPCA_Eigenvectors</value>
+  </data>
+  <data name="&gt;&gt;tpPCA_Eigenvectors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpPCA_Eigenvectors.Parent" xml:space="preserve">
+    <value>tcPCA</value>
+  </data>
+  <data name="&gt;&gt;tpPCA_Eigenvectors.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="dgvPCA_Correlation.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dgvPCA_Correlation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dgvPCA_Correlation.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="dgvPCA_Correlation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 401</value>
+  </data>
+  <data name="dgvPCA_Correlation.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;dgvPCA_Correlation.Name" xml:space="preserve">
+    <value>dgvPCA_Correlation</value>
+  </data>
+  <data name="&gt;&gt;dgvPCA_Correlation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvPCA_Correlation.Parent" xml:space="preserve">
+    <value>tpPCA_Correlation</value>
+  </data>
+  <data name="&gt;&gt;dgvPCA_Correlation.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpPCA_Correlation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tpPCA_Correlation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 401</value>
+  </data>
+  <data name="tpPCA_Correlation.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tpPCA_Correlation.Text" xml:space="preserve">
+    <value>Correlation</value>
+  </data>
+  <data name="&gt;&gt;tpPCA_Correlation.Name" xml:space="preserve">
+    <value>tpPCA_Correlation</value>
+  </data>
+  <data name="&gt;&gt;tpPCA_Correlation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpPCA_Correlation.Parent" xml:space="preserve">
+    <value>tcPCA</value>
+  </data>
+  <data name="&gt;&gt;tpPCA_Correlation.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="dgvPCA_Covariance.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dgvPCA_Covariance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dgvPCA_Covariance.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="dgvPCA_Covariance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 401</value>
+  </data>
+  <data name="dgvPCA_Covariance.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;dgvPCA_Covariance.Name" xml:space="preserve">
+    <value>dgvPCA_Covariance</value>
+  </data>
+  <data name="&gt;&gt;dgvPCA_Covariance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvPCA_Covariance.Parent" xml:space="preserve">
+    <value>tpPCA_Covariance</value>
+  </data>
+  <data name="&gt;&gt;dgvPCA_Covariance.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpPCA_Covariance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tpPCA_Covariance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 401</value>
+  </data>
+  <data name="tpPCA_Covariance.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tpPCA_Covariance.Text" xml:space="preserve">
+    <value>Covariance</value>
+  </data>
+  <data name="&gt;&gt;tpPCA_Covariance.Name" xml:space="preserve">
+    <value>tpPCA_Covariance</value>
+  </data>
+  <data name="&gt;&gt;tpPCA_Covariance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpPCA_Covariance.Parent" xml:space="preserve">
+    <value>tcPCA</value>
+  </data>
+  <data name="&gt;&gt;tpPCA_Covariance.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tcPCA.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tcPCA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="tcPCA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tcPCA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>728, 427</value>
+  </data>
+  <data name="tcPCA.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tcPCA.Name" xml:space="preserve">
+    <value>tcPCA</value>
+  </data>
+  <data name="&gt;&gt;tcPCA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tcPCA.Parent" xml:space="preserve">
+    <value>tpPCA</value>
+  </data>
+  <data name="&gt;&gt;tcPCA.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpPCA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="tpPCA.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="tpPCA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>738, 437</value>
+  </data>
+  <data name="tpPCA.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tpPCA.Text" xml:space="preserve">
+    <value>Principle Component Analysis (PCA)</value>
+  </data>
+  <data name="&gt;&gt;tpPCA.Name" xml:space="preserve">
+    <value>tpPCA</value>
+  </data>
+  <data name="&gt;&gt;tpPCA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpPCA.Parent" xml:space="preserve">
+    <value>tcAnalysis</value>
+  </data>
+  <data name="&gt;&gt;tpPCA.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="spvKPCA.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="spvKPCA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 20</value>
+  </data>
+  <data name="spvKPCA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="spvKPCA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 381</value>
+  </data>
+  <data name="spvKPCA.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;spvKPCA.Name" xml:space="preserve">
+    <value>spvKPCA</value>
+  </data>
+  <data name="&gt;&gt;spvKPCA.Type" xml:space="preserve">
+    <value>Accord.Controls.ScatterplotView, Accord.Controls, Version=2.15.0.0, Culture=neutral, PublicKeyToken=fa1a88e29555ccf7</value>
+  </data>
+  <data name="&gt;&gt;spvKPCA.Parent" xml:space="preserve">
+    <value>tpKPCA_ScatterPlot</value>
+  </data>
+  <data name="&gt;&gt;spvKPCA.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpKPCA_ScatterPlot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tpKPCA_ScatterPlot.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 20, 0, 0</value>
+  </data>
+  <data name="tpKPCA_ScatterPlot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 401</value>
+  </data>
+  <data name="tpKPCA_ScatterPlot.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tpKPCA_ScatterPlot.Text" xml:space="preserve">
+    <value>Scatter Plot</value>
+  </data>
+  <data name="&gt;&gt;tpKPCA_ScatterPlot.Name" xml:space="preserve">
+    <value>tpKPCA_ScatterPlot</value>
+  </data>
+  <data name="&gt;&gt;tpKPCA_ScatterPlot.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpKPCA_ScatterPlot.Parent" xml:space="preserve">
+    <value>tcKPCA</value>
+  </data>
+  <data name="&gt;&gt;tpKPCA_ScatterPlot.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dgvKPCA_PrincipleComponents.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dgvKPCA_PrincipleComponents.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dgvKPCA_PrincipleComponents.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="dgvKPCA_PrincipleComponents.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 401</value>
+  </data>
+  <data name="dgvKPCA_PrincipleComponents.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;dgvKPCA_PrincipleComponents.Name" xml:space="preserve">
+    <value>dgvKPCA_PrincipleComponents</value>
+  </data>
+  <data name="&gt;&gt;dgvKPCA_PrincipleComponents.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvKPCA_PrincipleComponents.Parent" xml:space="preserve">
+    <value>tpKPCA_PrincipleComponents</value>
+  </data>
+  <data name="&gt;&gt;dgvKPCA_PrincipleComponents.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpKPCA_PrincipleComponents.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tpKPCA_PrincipleComponents.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 401</value>
+  </data>
+  <data name="tpKPCA_PrincipleComponents.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="tpKPCA_PrincipleComponents.Text" xml:space="preserve">
+    <value>Principle Components</value>
+  </data>
+  <data name="&gt;&gt;tpKPCA_PrincipleComponents.Name" xml:space="preserve">
+    <value>tpKPCA_PrincipleComponents</value>
+  </data>
+  <data name="&gt;&gt;tpKPCA_PrincipleComponents.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpKPCA_PrincipleComponents.Parent" xml:space="preserve">
+    <value>tcKPCA</value>
+  </data>
+  <data name="&gt;&gt;tpKPCA_PrincipleComponents.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cvKPCA_ProportionsVisualization.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="cvKPCA_ProportionsVisualization.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 20</value>
+  </data>
+  <data name="cvKPCA_ProportionsVisualization.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="cvKPCA_ProportionsVisualization.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 381</value>
+  </data>
+  <data name="cvKPCA_ProportionsVisualization.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;cvKPCA_ProportionsVisualization.Name" xml:space="preserve">
+    <value>cvKPCA_ProportionsVisualization</value>
+  </data>
+  <data name="&gt;&gt;cvKPCA_ProportionsVisualization.Type" xml:space="preserve">
+    <value>Accord.Controls.ComponentView, Accord.Controls, Version=2.15.0.0, Culture=neutral, PublicKeyToken=fa1a88e29555ccf7</value>
+  </data>
+  <data name="&gt;&gt;cvKPCA_ProportionsVisualization.Parent" xml:space="preserve">
+    <value>tpKPCA_ProportionsVisualization</value>
+  </data>
+  <data name="&gt;&gt;cvKPCA_ProportionsVisualization.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpKPCA_ProportionsVisualization.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tpKPCA_ProportionsVisualization.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 20, 0, 0</value>
+  </data>
+  <data name="tpKPCA_ProportionsVisualization.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 401</value>
+  </data>
+  <data name="tpKPCA_ProportionsVisualization.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tpKPCA_ProportionsVisualization.Text" xml:space="preserve">
+    <value>Proportions Visualization</value>
+  </data>
+  <data name="&gt;&gt;tpKPCA_ProportionsVisualization.Name" xml:space="preserve">
+    <value>tpKPCA_ProportionsVisualization</value>
+  </data>
+  <data name="&gt;&gt;tpKPCA_ProportionsVisualization.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpKPCA_ProportionsVisualization.Parent" xml:space="preserve">
+    <value>tcKPCA</value>
+  </data>
+  <data name="&gt;&gt;tpKPCA_ProportionsVisualization.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cvKPCA_DistributionVisualization.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="cvKPCA_DistributionVisualization.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 20</value>
+  </data>
+  <data name="cvKPCA_DistributionVisualization.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="cvKPCA_DistributionVisualization.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 381</value>
+  </data>
+  <data name="cvKPCA_DistributionVisualization.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;cvKPCA_DistributionVisualization.Name" xml:space="preserve">
+    <value>cvKPCA_DistributionVisualization</value>
+  </data>
+  <data name="&gt;&gt;cvKPCA_DistributionVisualization.Type" xml:space="preserve">
+    <value>Accord.Controls.ComponentView, Accord.Controls, Version=2.15.0.0, Culture=neutral, PublicKeyToken=fa1a88e29555ccf7</value>
+  </data>
+  <data name="&gt;&gt;cvKPCA_DistributionVisualization.Parent" xml:space="preserve">
+    <value>tpKPCA_DistributionVisualization</value>
+  </data>
+  <data name="&gt;&gt;cvKPCA_DistributionVisualization.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpKPCA_DistributionVisualization.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tpKPCA_DistributionVisualization.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 20, 0, 0</value>
+  </data>
+  <data name="tpKPCA_DistributionVisualization.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 401</value>
+  </data>
+  <data name="tpKPCA_DistributionVisualization.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tpKPCA_DistributionVisualization.Text" xml:space="preserve">
+    <value>Distribution Visualization</value>
+  </data>
+  <data name="&gt;&gt;tpKPCA_DistributionVisualization.Name" xml:space="preserve">
+    <value>tpKPCA_DistributionVisualization</value>
+  </data>
+  <data name="&gt;&gt;tpKPCA_DistributionVisualization.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpKPCA_DistributionVisualization.Parent" xml:space="preserve">
+    <value>tcKPCA</value>
+  </data>
+  <data name="&gt;&gt;tpKPCA_DistributionVisualization.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tcKPCA.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tcKPCA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="tcKPCA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tcKPCA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>728, 427</value>
+  </data>
+  <data name="tcKPCA.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tcKPCA.Name" xml:space="preserve">
+    <value>tcKPCA</value>
+  </data>
+  <data name="&gt;&gt;tcKPCA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tcKPCA.Parent" xml:space="preserve">
+    <value>tpKPCA</value>
+  </data>
+  <data name="&gt;&gt;tcKPCA.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpKPCA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="tpKPCA.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="tpKPCA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>738, 437</value>
+  </data>
+  <data name="tpKPCA.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tpKPCA.Text" xml:space="preserve">
+    <value>Kernel Principle Component Analysis (KPCA)</value>
+  </data>
+  <data name="&gt;&gt;tpKPCA.Name" xml:space="preserve">
+    <value>tpKPCA</value>
+  </data>
+  <data name="&gt;&gt;tpKPCA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpKPCA.Parent" xml:space="preserve">
+    <value>tcAnalysis</value>
+  </data>
+  <data name="&gt;&gt;tpKPCA.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tcAnalysis.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tcAnalysis.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="tcAnalysis.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 10, 0, 0</value>
+  </data>
+  <data name="tcAnalysis.Padding" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="tcAnalysis.Size" type="System.Drawing.Size, System.Drawing">
+    <value>746, 467</value>
+  </data>
+  <data name="tcAnalysis.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tcAnalysis.Name" xml:space="preserve">
+    <value>tcAnalysis</value>
+  </data>
+  <data name="&gt;&gt;tcAnalysis.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tcAnalysis.Parent" xml:space="preserve">
+    <value>tpAnalysis</value>
+  </data>
+  <data name="&gt;&gt;tcAnalysis.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dgvKPCA_Eigenvectors.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dgvKPCA_Eigenvectors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dgvKPCA_Eigenvectors.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="dgvKPCA_Eigenvectors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>738, 441</value>
+  </data>
+  <data name="dgvKPCA_Eigenvectors.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;dgvKPCA_Eigenvectors.Name" xml:space="preserve">
+    <value>dgvKPCA_Eigenvectors</value>
+  </data>
+  <data name="&gt;&gt;dgvKPCA_Eigenvectors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvKPCA_Eigenvectors.Parent" xml:space="preserve">
+    <value>tpKPCA_Eigenvectors</value>
+  </data>
+  <data name="&gt;&gt;dgvKPCA_Eigenvectors.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpKPCA_Eigenvectors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tpKPCA_Eigenvectors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>738, 441</value>
+  </data>
+  <data name="tpKPCA_Eigenvectors.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tpKPCA_Eigenvectors.Text" xml:space="preserve">
+    <value>Eigenvectors</value>
+  </data>
+  <data name="&gt;&gt;tpKPCA_Eigenvectors.Name" xml:space="preserve">
+    <value>tpKPCA_Eigenvectors</value>
+  </data>
+  <data name="&gt;&gt;tpKPCA_Eigenvectors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="toolStripMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>132, 17</value>
+  </metadata>
+  <data name="toolStripButtonPerformPCA.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
+        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
+        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
+        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
+        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
+        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
+        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
+        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
+        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
+        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButtonPerformPCA.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolStripButtonPerformPCA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 22</value>
+  </data>
+  <data name="toolStripButtonPerformPCA.Text" xml:space="preserve">
+    <value>Perform PCA</value>
+  </data>
+  <data name="toolStripButtonPerformKPCA.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
+        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
+        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
+        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
+        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
+        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
+        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
+        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
+        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
+        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButtonPerformKPCA.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolStripButtonPerformKPCA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 22</value>
+  </data>
+  <data name="toolStripButtonPerformKPCA.Text" xml:space="preserve">
+    <value>Perform Kernel PCA</value>
+  </data>
+  <data name="toolStripButtonPerformKPCA.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolStripMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 34</value>
+  </data>
+  <data name="toolStripMain.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 10, 0, 0</value>
+  </data>
+  <data name="toolStripMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>764, 25</value>
+  </data>
+  <data name="toolStripMain.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="toolStripMain.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;toolStripMain.Name" xml:space="preserve">
+    <value>toolStripMain</value>
+  </data>
+  <data name="&gt;&gt;toolStripMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMain.Parent" xml:space="preserve">
+    <value>tlpMain</value>
+  </data>
+  <data name="&gt;&gt;toolStripMain.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="menuStripMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="createToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="createToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+N</value>
+  </data>
+  <data name="createToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="createToolStripMenuItem.Text" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="openToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="openToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+O</value>
+  </data>
+  <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="openToolStripMenuItem.Text" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="recentsToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="recentsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="recentsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Recents</value>
+  </data>
+  <data name="saveToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="saveToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+S</value>
+  </data>
+  <data name="saveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="saveToolStripMenuItem.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 6</value>
+  </data>
+  <data name="closeToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="closeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="closeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 6</value>
+  </data>
+  <data name="settingsToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 6</value>
+  </data>
+  <data name="exitToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="projectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 24</value>
+  </data>
+  <data name="projectToolStripMenuItem.Text" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="analysisImportToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAIZJREFUOE+l
+        koENgCAMBBnFTVzFjRzBURzFUZRXn7yFIuIlF5rWb0gkdDBF9/v8DMO0usQObZi6YLhcpRs+56M0KGC9
+        Sq1yeXEISn2awoBN3ETRgPoIAw4sGqJbNINDiwbVXzegczTBZjetC9zvaguG+wSvC+xvVPSxZXDQakbp
+        KXuaW4ZwAJSSc7hukCaUAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="analysisImportToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="analysisImportToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+I</value>
+  </data>
+  <data name="analysisImportToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 22</value>
+  </data>
+  <data name="analysisImportToolStripMenuItem.Text" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="toolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 6</value>
+  </data>
+  <data name="analysisRemoveToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAA0AAAAQCAYAAADNo/U5AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAATJJREFUOE+V0ksrRWEUxvFFZIRSBgYoKaUoJQYupQzOACEimSgGYiCKAQOFkYlI
+        DN2mrglDH0X5IPyfs/Z6224DT/16n/Pus87ZN/slZRjHNEZRgh85xVXOEz5yHpA/fgJ7xOs/6EesHV0q
+        ZApVXm0hW2sx4tX60aLSgw0Vso9mr3aXrR3Y9Gq70J9YI45VyBY6vaahASx5tQvUqJTjXoUsY9BrGhrD
+        rNfiTUp38zlbdXDCaxqaw5DX9L1iXrJVB+e9pqEV9KEUX4ZuUIlerGmDxNA2dPF1ONdG5BCtaMOONkgM
+        HaAB3djTRmQdBdTjSBskhs5QjUksaiMyAz1MneKlNkgMXUN3bBXD2ojoScdp3WZrDMVnnaYedEoT4iLj
+        9fm+6mbplUqpwDv08v7lDZym2Sc+aEJ5PE9gEAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="analysisRemoveToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="analysisRemoveToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+R</value>
+  </data>
+  <data name="analysisRemoveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 22</value>
+  </data>
+  <data name="analysisRemoveToolStripMenuItem.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="analysisInputToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="analysisInputToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>223, 22</value>
+  </data>
+  <data name="analysisInputToolStripMenuItem.Text" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="toolStripMenuItem6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 6</value>
+  </data>
+  <data name="performPCAToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="performPCAToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Shift+P</value>
+  </data>
+  <data name="performPCAToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>223, 22</value>
+  </data>
+  <data name="performPCAToolStripMenuItem.Text" xml:space="preserve">
+    <value>Perform PCA</value>
+  </data>
+  <data name="performKPCAToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="performKPCAToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Shift+K</value>
+  </data>
+  <data name="performKPCAToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>223, 22</value>
+  </data>
+  <data name="performKPCAToolStripMenuItem.Text" xml:space="preserve">
+    <value>Perform KPCA</value>
+  </data>
+  <data name="toolStripMenuItem7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 6</value>
+  </data>
+  <data name="toolStripMenuItem7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="analysisImageToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAANCAYAAACgu+4kAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAMNJREFUOE+d0b0OAUEUhuFFqSMqGlFr9BqFTqVwC3QKvV6rcAPuQGETCq1bERQU
+        CvHznhmzduwhsV/ybM5sdr7N7AbkgDClI8yQNmu5aAV55OzopYothmb1o2CMvh29dPDAyqy+FBRxwh4F
+        ufGRFkp21AsmkLeIqdwgGXSRNat3EgVlXOAKbmhj+VoPEE+iYAa3WSNHq8DFK6jhCm1j3AJyJIlXMIe2
+        QdODJCqo4w7tYc0O8reigiZGf2rAFMiH2aQTnJ82Qmg23f9KvwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="analysisImageToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="analysisImageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="analysisImageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="analysisPDFToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAMhJREFUOE+N
+        kw0RAiEQhYlgBCNcBCMZwQZGMIIRjGAEIxjB24/jMbCsd7yZN8fP7gcsXCp6m38TvpsHnc1MnnIvFnPE
+        fM0PBryY9CLpsjWziFnMISQC3MwEC6IYQbrj/ANQmxbgXdV1ikhknBW9VJOqCKDi8o10COAIjD9zb9Qu
+        gC2qgNSBqtPGOtIugNU/ZhL5YmKA4mvpV7UdJnVNugHEyoBfpT0A2LaedPhknQaAtgUE2JEGgJ7uTDIK
+        AbMitgPM/s6tLSelFT47WOpn+zliAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="analysisPDFToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="analysisPDFToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="analysisPDFToolStripMenuItem.Text" xml:space="preserve">
+    <value>PDF</value>
+  </data>
+  <data name="analysisExportToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAJpJREFUOE+1
+        kosNhCAQRCnBEq4TLcESrjNLsARLsBRL8GY2TrIuH4nJveSFwMJAgPRvvvBs2EUrpJsNVgNGWCqucICL
+        G4sapcIBJ9haTA11eBLBnXfoJ0sfatw6oLWYF0p0sYaKYoYa82qx4DxDEzzx6dinvJeMUgBRCFt/qoxq
+        IfAq4HO15DHAP2PEf7YMFXrNqH3lkuGUKf0A6xp5Zv809h0AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="analysisExportToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="analysisExportToolStripMenuItem.Text" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="analysisPrintToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAANlJREFUOE+l
+        koEKREAQhidFoqyUKCJFKeV4gn2Ee4R7lHvkfYS5nb3dO5FF/voyM77Z1AKTeZ5rCZ5Br2wzjiNO08Rt
+        kKP1bYZh2H+pY3X6vj88YOO0bcskous6JPR4N8ajHTVomkZI0KCGlixdiYCqqvAOUBQFXqEsyzdhesjz
+        HK+QZdmbMD2kaYp3gCRJ8A4QRREyxp5xHHOq6WnDOHLnRTWEYYhBEDzoiqhWd2WJceQOV7Xv+0KCC+pV
+        /4MWV7Pvz+R5Hidc1z38AnKMr0f/OI6DZ9C6DMAHVPXD/0LWwlkAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="analysisPrintToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="analysisPrintToolStripMenuItem.Text" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="analysisEmailToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAABGdBTUEAALGPC/xhBQAAAL9JREFUOE+l
+        0jsPAUEYheFt6NUShb9B5xJUVG4hFIRmC39b5Rbles+3ZmLC2g0necSs+c7MJiKS/Mk+7pihUlAPF/iC
+        Ja6Y6kFOWtDwAb6ghj5u+FbihteoIihQBlDJxFZh2tDwylYZBYpK9DojW6Vxw6/FmQVznKGbDNF9ro9w
+        pysfC7bQ5ibGOEG30Ts3oN/2UN4KFtBmXdelhHL61aJileigoCCGhjt6kBMdoL2a8QX6I+1QL2gDzfiC
+        H0XJA0nkWpIOQIprAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="analysisEmailToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="analysisEmailToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 22</value>
+  </data>
+  <data name="analysisEmailToolStripMenuItem.Text" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="analysisShareToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAA4AAAAQCAYAAAAmlE46AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAN9JREFUOE+N0r8KgVEcxvFjI2zCBShKcQGilFUGLsDgGgwWBhaLezCYJRkMBoMb
+        kMngAohB5F/4/uSt05v3PZ761BnOc87p9FN/JosVbpggAmOC2OOlGcGYHPSSOMM1ccxgLy7xMz50cIVs
+        3OL5XR+Rh/KghgGaqGAD2XRHF34kUEQIn8jJ1hN0cyThGPuPiTrkJa45wF5swFhsw14UC6ThGDm5ij7k
+        phLWkPIDPcgQpFBGFI7xooUL5AD9H04owDUxTGGVLDK3xvwaObnVmAB20ItD/JUMZD5lBMdKqfAbJhBV
+        Vow4pXMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="analysisShareToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="analysisShareToolStripMenuItem.Text" xml:space="preserve">
+    <value>Share</value>
+  </data>
+  <data name="analysisOutputToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="analysisOutputToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>223, 22</value>
+  </data>
+  <data name="analysisOutputToolStripMenuItem.Text" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="analysisOutputToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="analysisToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 24</value>
+  </data>
+  <data name="analysisToolStripMenuItem.Text" xml:space="preserve">
+    <value>Analysis</value>
+  </data>
+  <data name="uspUnivImportToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="uspUnivImportToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+I</value>
+  </data>
+  <data name="uspUnivImportToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 22</value>
+  </data>
+  <data name="uspUnivImportToolStripMenuItem.Text" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 6</value>
+  </data>
+  <data name="uspUnivRemoveToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="uspUnivRemoveToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+R</value>
+  </data>
+  <data name="uspUnivRemoveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 22</value>
+  </data>
+  <data name="uspUnivRemoveToolStripMenuItem.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="uspUnivInputToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="uspUnivInputToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="uspUnivInputToolStripMenuItem.Text" xml:space="preserve">
+    <value>Universal Input</value>
+  </data>
+  <data name="uspUnivInputToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="uspSampleImportToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="uspSampleImportToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+I</value>
+  </data>
+  <data name="uspSampleImportToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 22</value>
+  </data>
+  <data name="uspSampleImportToolStripMenuItem.Text" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="toolStripMenuItem8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 6</value>
+  </data>
+  <data name="uspSampleRemoveToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="uspSampleRemoveToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+R</value>
+  </data>
+  <data name="uspSampleRemoveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 22</value>
+  </data>
+  <data name="uspSampleRemoveToolStripMenuItem.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="uspSampleInputToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="uspSampleInputToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="uspSampleInputToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sample Input</value>
+  </data>
+  <data name="toolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 6</value>
+  </data>
+  <data name="uspProjectToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="uspProjectToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Shift+U</value>
+  </data>
+  <data name="uspProjectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="uspProjectToolStripMenuItem.Text" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="uspToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 24</value>
+  </data>
+  <data name="uspToolStripMenuItem.Text" xml:space="preserve">
+    <value>Universal Space Projection</value>
+  </data>
+  <data name="viewHelpToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="viewHelpToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>F1</value>
+  </data>
+  <data name="viewHelpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="viewHelpToolStripMenuItem.Text" xml:space="preserve">
+    <value>View Help</value>
+  </data>
+  <data name="viewHelpToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 6</value>
+  </data>
+  <data name="toolStripMenuItem2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="aboutToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 24</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="menuStripMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStripMain.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="menuStripMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>764, 24</value>
+  </data>
+  <data name="menuStripMain.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;menuStripMain.Name" xml:space="preserve">
+    <value>menuStripMain</value>
+  </data>
+  <data name="&gt;&gt;menuStripMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStripMain.Parent" xml:space="preserve">
+    <value>tlpMain</value>
+  </data>
+  <data name="&gt;&gt;menuStripMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpMain.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tpAnalysis.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="tpAnalysis.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="tpAnalysis.Size" type="System.Drawing.Size, System.Drawing">
+    <value>756, 477</value>
+  </data>
+  <data name="tpAnalysis.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tpAnalysis.Text" xml:space="preserve">
+    <value>Analysis</value>
+  </data>
+  <data name="&gt;&gt;tpAnalysis.Name" xml:space="preserve">
+    <value>tpAnalysis</value>
+  </data>
+  <data name="&gt;&gt;tpAnalysis.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpAnalysis.Parent" xml:space="preserve">
+    <value>tcMain</value>
+  </data>
+  <data name="&gt;&gt;tpAnalysis.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpUSP3D.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="tpUSP3D.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 20, 0, 0</value>
+  </data>
+  <data name="tpUSP3D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>738, 437</value>
+  </data>
+  <data name="tpUSP3D.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tpUSP3D.Text" xml:space="preserve">
+    <value>2D</value>
+  </data>
+  <data name="&gt;&gt;tpUSP3D.Name" xml:space="preserve">
+    <value>tpUSP3D</value>
+  </data>
+  <data name="&gt;&gt;tpUSP3D.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpUSP3D.Parent" xml:space="preserve">
+    <value>tcUSP</value>
+  </data>
+  <data name="&gt;&gt;tpUSP3D.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chartUSP2D.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="chartUSP2D.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 20</value>
+  </data>
+  <data name="chartUSP2D.RangeX" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAElBRm9yZ2UsIFZlcnNpb249Mi4yLjUuMCwgQ3VsdHVyZT1uZXV0
+        cmFsLCBQdWJsaWNLZXlUb2tlbj1jMWRiNmZmNGVhYTA2YWViBQEAAAAMQUZvcmdlLlJhbmdlAgAAAANt
+        aW4DbWF4AAALCwIAAAAAAAAAAACAPws=
+</value>
+  </data>
+  <data name="chartUSP2D.RangeY" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAElBRm9yZ2UsIFZlcnNpb249Mi4yLjUuMCwgQ3VsdHVyZT1uZXV0
+        cmFsLCBQdWJsaWNLZXlUb2tlbj1jMWRiNmZmNGVhYTA2YWViBQEAAAAMQUZvcmdlLlJhbmdlAgAAAANt
+        aW4DbWF4AAALCwIAAAAAAAAAAACAPws=
+</value>
+  </data>
+  <data name="chartUSP2D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>738, 417</value>
+  </data>
+  <data name="chartUSP2D.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chartUSP2D.Text" xml:space="preserve">
+    <value>chart1</value>
+  </data>
+  <data name="&gt;&gt;chartUSP2D.Name" xml:space="preserve">
+    <value>chartUSP2D</value>
+  </data>
+  <data name="&gt;&gt;chartUSP2D.Type" xml:space="preserve">
+    <value>AForge.Controls.Chart, AForge.Controls, Version=2.2.5.0, Culture=neutral, PublicKeyToken=a8ac264d1dc6b9d9</value>
+  </data>
+  <data name="&gt;&gt;chartUSP2D.Parent" xml:space="preserve">
+    <value>tpUSP2D</value>
+  </data>
+  <data name="&gt;&gt;chartUSP2D.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpUSP2D.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="tpUSP2D.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 20, 0, 0</value>
+  </data>
+  <data name="tpUSP2D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>738, 437</value>
+  </data>
+  <data name="tpUSP2D.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tpUSP2D.Text" xml:space="preserve">
+    <value>3D</value>
+  </data>
+  <data name="&gt;&gt;tpUSP2D.Name" xml:space="preserve">
+    <value>tpUSP2D</value>
+  </data>
+  <data name="&gt;&gt;tpUSP2D.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpUSP2D.Parent" xml:space="preserve">
+    <value>tcUSP</value>
+  </data>
+  <data name="&gt;&gt;tpUSP2D.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tcUSP.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tcUSP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="tcUSP.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 10, 0, 0</value>
+  </data>
+  <data name="tcUSP.Padding" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="tcUSP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>746, 467</value>
+  </data>
+  <data name="tcUSP.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tcUSP.Name" xml:space="preserve">
+    <value>tcUSP</value>
+  </data>
+  <data name="&gt;&gt;tcUSP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tcUSP.Parent" xml:space="preserve">
+    <value>tpUSP</value>
+  </data>
+  <data name="&gt;&gt;tcUSP.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpUSP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="tpUSP.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="tpUSP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>756, 477</value>
+  </data>
+  <data name="tpUSP.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tpUSP.Text" xml:space="preserve">
+    <value>Universal Space Projection</value>
+  </data>
+  <data name="&gt;&gt;tpUSP.Name" xml:space="preserve">
+    <value>tpUSP</value>
+  </data>
+  <data name="&gt;&gt;tpUSP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpUSP.Parent" xml:space="preserve">
+    <value>tcMain</value>
+  </data>
+  <data name="&gt;&gt;tpUSP.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tcMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tcMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 34</value>
+  </data>
+  <data name="tcMain.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 10, 0, 0</value>
+  </data>
+  <data name="tcMain.Padding" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="tcMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>764, 507</value>
+  </data>
+  <data name="tcMain.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tcMain.Name" xml:space="preserve">
+    <value>tcMain</value>
+  </data>
+  <data name="&gt;&gt;tcMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tcMain.Parent" xml:space="preserve">
+    <value>tlpMain</value>
+  </data>
+  <data name="&gt;&gt;tcMain.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tlpMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tlpMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 10</value>
+  </data>
+  <data name="tlpMain.RowCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tlpMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>764, 541</value>
+  </data>
+  <data name="tlpMain.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tlpMain.Name" xml:space="preserve">
+    <value>tlpMain</value>
+  </data>
+  <data name="&gt;&gt;tlpMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tlpMain.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tlpMain.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="menuStripMain" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="toolStripMain" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tcMain" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="AutoSize,0,AutoSize,0,Percent,100,AutoSize,0,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <metadata name="cultureManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>258, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>55</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>784, 561</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 600</value>
+  </data>
+  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Components Analysis</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn6.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn6</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colIndex.Name" xml:space="preserve">
+    <value>colIndex</value>
+  </data>
+  <data name="&gt;&gt;colIndex.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn7.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn7</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn8.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn8</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn9.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn9</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn10.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn10</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn11.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn11</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn12.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn12</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colMin.Name" xml:space="preserve">
+    <value>colMin</value>
+  </data>
+  <data name="&gt;&gt;colMin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colLength.Name" xml:space="preserve">
+    <value>colLength</value>
+  </data>
+  <data name="&gt;&gt;colLength.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripButtonPerformPCA.Name" xml:space="preserve">
+    <value>toolStripButtonPerformPCA</value>
+  </data>
+  <data name="&gt;&gt;toolStripButtonPerformPCA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripButtonPerformKPCA.Name" xml:space="preserve">
+    <value>toolStripButtonPerformKPCA</value>
+  </data>
+  <data name="&gt;&gt;toolStripButtonPerformKPCA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;projectToolStripMenuItem.Name" xml:space="preserve">
+    <value>projectToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;projectToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;createToolStripMenuItem.Name" xml:space="preserve">
+    <value>createToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;createToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openToolStripMenuItem.Name" xml:space="preserve">
+    <value>openToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;openToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;recentsToolStripMenuItem.Name" xml:space="preserve">
+    <value>recentsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;recentsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveToolStripMenuItem.Name" xml:space="preserve">
+    <value>saveToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;saveToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;closeToolStripMenuItem.Name" xml:space="preserve">
+    <value>closeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;closeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;settingsToolStripMenuItem.Name" xml:space="preserve">
+    <value>settingsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;settingsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Name" xml:space="preserve">
+    <value>toolStripSeparator3</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exitToolStripMenuItem.Name" xml:space="preserve">
+    <value>exitToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;exitToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;analysisToolStripMenuItem.Name" xml:space="preserve">
+    <value>analysisToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;analysisToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;analysisInputToolStripMenuItem.Name" xml:space="preserve">
+    <value>analysisInputToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;analysisInputToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;analysisImportToolStripMenuItem.Name" xml:space="preserve">
+    <value>analysisImportToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;analysisImportToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem5.Name" xml:space="preserve">
+    <value>toolStripMenuItem5</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;analysisRemoveToolStripMenuItem.Name" xml:space="preserve">
+    <value>analysisRemoveToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;analysisRemoveToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem6.Name" xml:space="preserve">
+    <value>toolStripMenuItem6</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;performPCAToolStripMenuItem.Name" xml:space="preserve">
+    <value>performPCAToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;performPCAToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;performKPCAToolStripMenuItem.Name" xml:space="preserve">
+    <value>performKPCAToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;performKPCAToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem7.Name" xml:space="preserve">
+    <value>toolStripMenuItem7</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;analysisOutputToolStripMenuItem.Name" xml:space="preserve">
+    <value>analysisOutputToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;analysisOutputToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;analysisExportToolStripMenuItem.Name" xml:space="preserve">
+    <value>analysisExportToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;analysisExportToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;analysisImageToolStripMenuItem.Name" xml:space="preserve">
+    <value>analysisImageToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;analysisImageToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;analysisPDFToolStripMenuItem.Name" xml:space="preserve">
+    <value>analysisPDFToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;analysisPDFToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;analysisPrintToolStripMenuItem.Name" xml:space="preserve">
+    <value>analysisPrintToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;analysisPrintToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;analysisShareToolStripMenuItem.Name" xml:space="preserve">
+    <value>analysisShareToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;analysisShareToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;analysisEmailToolStripMenuItem.Name" xml:space="preserve">
+    <value>analysisEmailToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;analysisEmailToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;uspToolStripMenuItem.Name" xml:space="preserve">
+    <value>uspToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;uspToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;uspUnivInputToolStripMenuItem.Name" xml:space="preserve">
+    <value>uspUnivInputToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;uspUnivInputToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;uspUnivImportToolStripMenuItem.Name" xml:space="preserve">
+    <value>uspUnivImportToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;uspUnivImportToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem3.Name" xml:space="preserve">
+    <value>toolStripMenuItem3</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;uspUnivRemoveToolStripMenuItem.Name" xml:space="preserve">
+    <value>uspUnivRemoveToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;uspUnivRemoveToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;uspSampleInputToolStripMenuItem.Name" xml:space="preserve">
+    <value>uspSampleInputToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;uspSampleInputToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;uspSampleImportToolStripMenuItem.Name" xml:space="preserve">
+    <value>uspSampleImportToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;uspSampleImportToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem8.Name" xml:space="preserve">
+    <value>toolStripMenuItem8</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;uspSampleRemoveToolStripMenuItem.Name" xml:space="preserve">
+    <value>uspSampleRemoveToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;uspSampleRemoveToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem4.Name" xml:space="preserve">
+    <value>toolStripMenuItem4</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;uspProjectToolStripMenuItem.Name" xml:space="preserve">
+    <value>uspProjectToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;uspProjectToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;helpToolStripMenuItem.Name" xml:space="preserve">
+    <value>helpToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;helpToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;viewHelpToolStripMenuItem.Name" xml:space="preserve">
+    <value>viewHelpToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;viewHelpToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem2.Name" xml:space="preserve">
+    <value>toolStripMenuItem2</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;aboutToolStripMenuItem.Name" xml:space="preserve">
+    <value>aboutToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;aboutToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cultureManager.Name" xml:space="preserve">
+    <value>cultureManager</value>
+  </data>
+  <data name="&gt;&gt;cultureManager.Type" xml:space="preserve">
+    <value>Infralution.Localization.CultureManager, Infralution.Localization, Version=1.2.2.0, Culture=neutral, PublicKeyToken=af4bb5454ff71782</value>
+  </data>
+  <data name="&gt;&gt;ofdProject.Name" xml:space="preserve">
+    <value>ofdProject</value>
+  </data>
+  <data name="&gt;&gt;ofdProject.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmsAccordViewWithGraph_Export.Name" xml:space="preserve">
+    <value>cmsAccordViewWithGraph_Export</value>
+  </data>
+  <data name="&gt;&gt;cmsAccordViewWithGraph_Export.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmsAccordViewWithGraph_ExportImage.Name" xml:space="preserve">
+    <value>cmsAccordViewWithGraph_ExportImage</value>
+  </data>
+  <data name="&gt;&gt;cmsAccordViewWithGraph_ExportImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmsAccordViewWithGraph_ExportPDF.Name" xml:space="preserve">
+    <value>cmsAccordViewWithGraph_ExportPDF</value>
+  </data>
+  <data name="&gt;&gt;cmsAccordViewWithGraph_ExportPDF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmsAccordViewWithGraph_Print.Name" xml:space="preserve">
+    <value>cmsAccordViewWithGraph_Print</value>
+  </data>
+  <data name="&gt;&gt;cmsAccordViewWithGraph_Print.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmsAccordViewWithGraph_Share.Name" xml:space="preserve">
+    <value>cmsAccordViewWithGraph_Share</value>
+  </data>
+  <data name="&gt;&gt;cmsAccordViewWithGraph_Share.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmsAccordViewWithGraph_ShareEmail.Name" xml:space="preserve">
+    <value>cmsAccordViewWithGraph_ShareEmail</value>
+  </data>
+  <data name="&gt;&gt;cmsAccordViewWithGraph_ShareEmail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="ofdProject.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>389, 18</value>
+  </metadata>
+  <data name="ofdProject.Title" xml:space="preserve">
+    <value>Browse Project...</value>
+  </data>
+  <metadata name="cmsAccordViewWithGraph.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>497, 18</value>
+  </metadata>
+  <data name="cmsAccordViewWithGraph_ExportImage.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAANCAYAAACgu+4kAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAMNJREFUOE+d0b0OAUEUhuFFqSMqGlFr9BqFTqVwC3QKvV6rcAPuQGETCq1bERQU
+        CvHznhmzduwhsV/ybM5sdr7N7AbkgDClI8yQNmu5aAV55OzopYothmb1o2CMvh29dPDAyqy+FBRxwh4F
+        ufGRFkp21AsmkLeIqdwgGXSRNat3EgVlXOAKbmhj+VoPEE+iYAa3WSNHq8DFK6jhCm1j3AJyJIlXMIe2
+        QdODJCqo4w7tYc0O8reigiZGf2rAFMiH2aQTnJ82Qmg23f9KvwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="cmsAccordViewWithGraph_ExportImage.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="cmsAccordViewWithGraph_ExportImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="cmsAccordViewWithGraph_ExportImage.Text" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="cmsAccordViewWithGraph_ExportPDF.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAMhJREFUOE+N
+        kw0RAiEQhYlgBCNcBCMZwQZGMIIRjGAEIxjB24/jMbCsd7yZN8fP7gcsXCp6m38TvpsHnc1MnnIvFnPE
+        fM0PBryY9CLpsjWziFnMISQC3MwEC6IYQbrj/ANQmxbgXdV1ikhknBW9VJOqCKDi8o10COAIjD9zb9Qu
+        gC2qgNSBqtPGOtIugNU/ZhL5YmKA4mvpV7UdJnVNugHEyoBfpT0A2LaedPhknQaAtgUE2JEGgJ7uTDIK
+        AbMitgPM/s6tLSelFT47WOpn+zliAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="cmsAccordViewWithGraph_ExportPDF.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="cmsAccordViewWithGraph_ExportPDF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="cmsAccordViewWithGraph_ExportPDF.Text" xml:space="preserve">
+    <value>PDF</value>
+  </data>
+  <data name="cmsAccordViewWithGraph_Export.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAJpJREFUOE+1
+        kosNhCAQRCnBEq4TLcESrjNLsARLsBRL8GY2TrIuH4nJveSFwMJAgPRvvvBs2EUrpJsNVgNGWCqucICL
+        G4sapcIBJ9haTA11eBLBnXfoJ0sfatw6oLWYF0p0sYaKYoYa82qx4DxDEzzx6dinvJeMUgBRCFt/qoxq
+        IfAq4HO15DHAP2PEf7YMFXrNqH3lkuGUKf0A6xp5Zv809h0AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="cmsAccordViewWithGraph_Export.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="cmsAccordViewWithGraph_Export.Text" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="cmsAccordViewWithGraph_Print.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAANlJREFUOE+l
+        koEKREAQhidFoqyUKCJFKeV4gn2Ee4R7lHvkfYS5nb3dO5FF/voyM77Z1AKTeZ5rCZ5Br2wzjiNO08Rt
+        kKP1bYZh2H+pY3X6vj88YOO0bcskous6JPR4N8ajHTVomkZI0KCGlixdiYCqqvAOUBQFXqEsyzdhesjz
+        HK+QZdmbMD2kaYp3gCRJ8A4QRREyxp5xHHOq6WnDOHLnRTWEYYhBEDzoiqhWd2WJceQOV7Xv+0KCC+pV
+        /4MWV7Pvz+R5Hidc1z38AnKMr0f/OI6DZ9C6DMAHVPXD/0LWwlkAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="cmsAccordViewWithGraph_Print.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="cmsAccordViewWithGraph_Print.Text" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="cmsAccordViewWithGraph_ShareEmail.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAABGdBTUEAALGPC/xhBQAAAL9JREFUOE+l
+        0jsPAUEYheFt6NUShb9B5xJUVG4hFIRmC39b5Rbles+3ZmLC2g0necSs+c7MJiKS/Mk+7pihUlAPF/iC
+        Ja6Y6kFOWtDwAb6ghj5u+FbihteoIihQBlDJxFZh2tDwylYZBYpK9DojW6Vxw6/FmQVznKGbDNF9ro9w
+        pysfC7bQ5ibGOEG30Ts3oN/2UN4KFtBmXdelhHL61aJileigoCCGhjt6kBMdoL2a8QX6I+1QL2gDzfiC
+        H0XJA0nkWpIOQIprAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="cmsAccordViewWithGraph_ShareEmail.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="cmsAccordViewWithGraph_ShareEmail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 22</value>
+  </data>
+  <data name="cmsAccordViewWithGraph_ShareEmail.Text" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="cmsAccordViewWithGraph_Share.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAA4AAAAQCAYAAAAmlE46AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAN9JREFUOE+N0r8KgVEcxvFjI2zCBShKcQGilFUGLsDgGgwWBhaLezCYJRkMBoMb
+        kMngAohB5F/4/uSt05v3PZ761BnOc87p9FN/JosVbpggAmOC2OOlGcGYHPSSOMM1ccxgLy7xMz50cIVs
+        3OL5XR+Rh/KghgGaqGAD2XRHF34kUEQIn8jJ1hN0cyThGPuPiTrkJa45wF5swFhsw14UC6ThGDm5ij7k
+        phLWkPIDPcgQpFBGFI7xooUL5AD9H04owDUxTGGVLDK3xvwaObnVmAB20ItD/JUMZD5lBMdKqfAbJhBV
+        Vow4pXMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="cmsAccordViewWithGraph_Share.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="cmsAccordViewWithGraph_Share.Text" xml:space="preserve">
+    <value>Share</value>
+  </data>
+  <data name="cmsAccordViewWithGraph.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 70</value>
+  </data>
+  <data name="&gt;&gt;cmsAccordViewWithGraph.Name" xml:space="preserve">
+    <value>cmsAccordViewWithGraph</value>
+  </data>
+  <data name="&gt;&gt;cmsAccordViewWithGraph.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
