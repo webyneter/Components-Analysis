@@ -6,7 +6,7 @@ namespace Webyneter.ComponentsAnalysis.Miscellaneous.ExtensionMethods
 {
     public static class ControlExtensionMethods
     {
-        public static IEnumerable<T> EnumerateDescendants<T>(this Control control)
+        public static IEnumerable<T> EnumerateDescendantsOfType<T>(this Control control)
             where T : class
         {
             foreach (Control child in control.Controls)
@@ -18,7 +18,7 @@ namespace Webyneter.ComponentsAnalysis.Miscellaneous.ExtensionMethods
                 }
                 if (child.HasChildren)
                 {
-                    foreach (T descendant in EnumerateDescendants<T>(child))
+                    foreach (T descendant in EnumerateDescendantsOfType<T>(child))
                     {
                         yield return descendant;
                     }

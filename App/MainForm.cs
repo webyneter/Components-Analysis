@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Drawing;
 using System.IO;
-using System.Linq;
 using System.Reflection;
 using System.Resources;
 using System.Windows.Forms;
@@ -43,8 +42,6 @@ namespace Webyneter.ComponentsAnalysis.App
         }
 
         private readonly ResourceManager resourceManager;
-        //private readonly List<ToolStripItem> subToolStripItems;
-        //private const string SubMenuItemIndent = "    ";
         private readonly MruStripMenu recentsMenu;
 
         public MainForm()
@@ -53,13 +50,13 @@ namespace Webyneter.ComponentsAnalysis.App
             {
                 InitializeComponent();
 
-                //foreach (var VARIABLE in EnumerateDescendants<>())
-                //{
-                    
-                //}
-                //TryAttachContextMenuToAccordViewWithGraph();
+                TryAttachContextMenuToAccordViewWithGraph(cvPCA_ProportionsVisualization);
+                TryAttachContextMenuToAccordViewWithGraph(cvPCA_DistributionVisualization);
+                TryAttachContextMenuToAccordViewWithGraph(spvKPCA);
+                TryAttachContextMenuToAccordViewWithGraph(cvKPCA_ProportionsVisualization);
+                TryAttachContextMenuToAccordViewWithGraph(cvKPCA_DistributionVisualization);
 
-                resourceManager = new ResourceManager(typeof(MainForm));
+                 resourceManager = new ResourceManager(typeof(MainForm));
 
                 recentsMenu = new MruStripMenu(recentsToolStripMenuItem, OpenRecentProject,
                     Path.Combine(Settings.Default.RecentProjectsRegistryKey, Settings.Default.RecentProjectsDirName),
@@ -76,16 +73,14 @@ namespace Webyneter.ComponentsAnalysis.App
         {
             var viewType = typeof(TAccordView);
             var bindingFlags = BindingFlags.Instance | BindingFlags.Public;
+            var graphMemberType = typeof(ZedGraphControl);
+            var graphMemberName = "Graph";
+            
+            var assumedGraphField = viewType.GetField(graphMemberName, bindingFlags);
+            var assumedGraphProperty = viewType.GetProperty(graphMemberName, bindingFlags);
 
-            var assumedGraphFields = viewType.GetFields(bindingFlags);
-            var assumedGraphProperties = viewType.GetProperties(bindingFlags);
-            
-            var graphType = typeof(ZedGraphControl);
-            var graphField = assumedGraphFields.FirstOrDefault(fi => fi.FieldType == (graphType));
-            var graphProperty = assumedGraphProperties.FirstOrDefault(pi => pi.PropertyType == (graphType));
-            
-            if (graphField == null 
-                && graphProperty == null)
+            if ((assumedGraphField == null || assumedGraphField.FieldType != graphMemberType)
+                && (assumedGraphProperty == null || assumedGraphProperty.PropertyType != graphMemberType))
             {
                 return false;
             }
@@ -107,10 +102,6 @@ namespace Webyneter.ComponentsAnalysis.App
         {
             try
             {
-                //svUSP2D.
-
-                //chartUSP2D.AddDataSeries("test", Color.Red, Chart.SeriesType.Dots, 100);
-
                 Project.ProjectOpened += (s, ea) =>
                 {
                     var proj = (Project) s;
@@ -149,16 +140,10 @@ namespace Webyneter.ComponentsAnalysis.App
 
                 Project.USPSampleInputDataImported += (s, ea) =>
                 {
-                    //dgvInputDataOriginal.DataSource = ((Project) s).AnalysisInputData;
-                    //AdjustDataGridViews(DataGridViewSelectionMode.FullColumnSelect,
-                    //    dgvInputDataOriginal);
                     SetState(State.USPSampleInputDataImported);
                 };
                 Project.USPSampleInputDataRemoved += (s, ea) =>
                 {
-                    //PopulateInputDataTab(null);
-                    //PopulatePCATab(null);
-                    //PopulateKPCATab(null);
                     SetState(State.USPSampleInputDataRemoved);
                 };
 
@@ -296,7 +281,6 @@ namespace Webyneter.ComponentsAnalysis.App
                     recentsToolStripMenuItem.Enabled =
                     settingsToolStripMenuItem.Enabled =
                     exitToolStripMenuItem.Enabled =
-                    //preferencesToolStripMenuItem.Enabled =
                     analysisImportToolStripMenuItem.Enabled = isVisible;
             };
             Action<bool> setProjectLoaded = isLoaded =>
@@ -308,9 +292,9 @@ namespace Webyneter.ComponentsAnalysis.App
             Action<bool> setAnalysisInputDataImported = isImported =>
             {
                 analysisRemoveToolStripMenuItem.Enabled =
-                        analysisToolStripMenuItem.Enabled =
-                        performPCAToolStripMenuItem.Enabled =
-                        performKPCAToolStripMenuItem.Enabled = isImported;
+                    analysisToolStripMenuItem.Enabled =
+                    performPCAToolStripMenuItem.Enabled =
+                    performKPCAToolStripMenuItem.Enabled = isImported;
                 tcMain.Visible =
                     tcAnalysis.Visible =
                     tcAnalysisInputDataSubs.Visible = isImported;
@@ -480,14 +464,6 @@ namespace Webyneter.ComponentsAnalysis.App
             }
         }
 
-        //private void AdjustSubMenuItems()
-        //{
-        //    foreach (var item in subToolStripItems)
-        //    {
-        //        item.Text = SubMenuItemIndent + item.Text;
-        //    }
-        //}
-
         private bool TryCloseProject(Project proj)
         {
             if (!proj.IsSaved)
@@ -526,15 +502,6 @@ namespace Webyneter.ComponentsAnalysis.App
                 callback(project);
             }
         }
-
-
-        //private void DropDown_Closing(object sender, ToolStripDropDownClosingEventArgs e)
-        //{
-        //    if (e.CloseReason == ToolStripDropDownCloseReason.ItemClicked)
-        //    {
-        //        e.Cancel = true;
-        //    }
-        //}
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -644,29 +611,16 @@ namespace Webyneter.ComponentsAnalysis.App
             }
         }
 
-        private void viewHelpToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            try
-            {
-
-            }
-            catch (Exception ex)
-            {
-                CatchException(ex);
-            }
-        }
-
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             try
             {
-
+                new AboutForm().Show();
             }
             catch (Exception ex)
             {
                 CatchException(ex);
             }
-            new AboutForm().Show();
         }
 
         private void ImportInputData(bool analysis, bool uspUniv, bool uspSample)
@@ -887,41 +841,5 @@ namespace Webyneter.ComponentsAnalysis.App
                 CatchException(ex);
             }
         }
-
-
-
-        private void cmsZedGraphControl_ExportImage_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                WithOpenedProject(p => p.PerformUSP(0));
-            }
-            catch (Exception ex)
-            {
-                CatchException(ex);
-            }
-        }
-
-
-
-        //private void analysisImageToolStripMenuItem_Click(object sender, EventArgs e)
-        //{
-        //    try
-        //    {
-        //        WithOpenedProject(p =>
-        //        {
-        //            p.
-        //        });
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        CatchException(ex);
-        //    }
-        //}
-
-        //private void UpdateOutputMenuItems()
-        //{
-
-        //}
     }
 }

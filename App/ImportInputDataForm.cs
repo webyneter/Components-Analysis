@@ -11,7 +11,6 @@ using Accord.IO;
 using Webyneter.ComponentsAnalysis.App.Properties;
 using Webyneter.ComponentsAnalysis.Core;
 using Webyneter.ComponentsAnalysis.Core.Miscellaneous;
-using Webyneter.ComponentsAnalysis.Miscellaneous;
 using Webyneter.ComponentsAnalysis.Miscellaneous.ExtensionMethods;
 
 
