@@ -239,8 +239,8 @@ namespace Webyneter.ComponentsAnalysis.App
 
         private string GenerateFormTitle(Project proj)
         {
-            return string.Format("{0}{1} - {2}", proj.Name, proj.IsSaved ? "" : "*", 
-                resourceManager.GetString("MainFormTitle"));
+            return string.Format("{0} - \"{1}\"{2}", resourceManager.GetString("MainFormTitle"), proj.Name, 
+                proj.IsSaved ? "" : "*");
         }
 
         private double[,] ExtractColumns(double[,] array, params int[] indices)
