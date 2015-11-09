@@ -91,7 +91,7 @@ namespace Webyneter.ComponentsAnalysis.App.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("ru")]
+        [global::System.Configuration.DefaultSettingValueAttribute("en")]
         public global::System.Globalization.CultureInfo AppCurrentCulture {
             get {
                 return ((global::System.Globalization.CultureInfo)(this["AppCurrentCulture"]));

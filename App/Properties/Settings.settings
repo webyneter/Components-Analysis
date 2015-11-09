@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Webyneter.ComponentsAnalysis.App" GeneratedClassName="Settings">
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Webyneter.ComponentsAnalysis.App.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
     <Setting Name="ProjectFilesDir" Type="System.String" Scope="User">
@@ -21,7 +21,7 @@
       <Value Profile="(Default)">640, 480</Value>
     </Setting>
     <Setting Name="AppCurrentCulture" Type="System.Globalization.CultureInfo" Scope="User">
-      <Value Profile="(Default)">ru</Value>
+      <Value Profile="(Default)">en</Value>
     </Setting>
     <Setting Name="ProjectFilesDirNameDefault" Type="System.String" Scope="Application">
       <Value Profile="(Default)">Projects</Value>
