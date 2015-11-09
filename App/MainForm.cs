@@ -317,8 +317,7 @@ namespace Webyneter.ComponentsAnalysis.App
             Action<bool> setPCAPerformed = performed =>
             {
                 tcPCA.Visible = performed;
-                analysisOutputToolStripMenuItem.Enabled =
-                    dgvInputDataCentered.Visible =
+                dgvInputDataCentered.Visible =
                     dgvInputDataStandartized.Visible = 
                     dgvMeasures.Visible =
                     dhvFrequencies.Visible = performed;
@@ -327,8 +326,7 @@ namespace Webyneter.ComponentsAnalysis.App
             Action<bool> setKPCAPerformed = performed =>
             {
                 tcKPCA.Visible = performed;
-                analysisOutputToolStripMenuItem.Enabled =
-                    dgvInputDataCentered.Visible =
+                dgvInputDataCentered.Visible =
                     dgvInputDataStandartized.Visible =
                     dgvMeasures.Visible =
                     dhvFrequencies.Visible = performed;
