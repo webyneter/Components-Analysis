@@ -36,7 +36,6 @@ namespace Webyneter.ComponentsAnalysis.Core.UniversalSpaceProjection
             var result = new DataTable();
             int entriesCount = projection.GetLength(0);
             int pcsCount = projection.GetLength(1);
-            //result.Columns.Add("Вхождение");
             for (int i = 0; i < pcsCount; i++)
             {
                 result.Columns.Add("ГК " + i);

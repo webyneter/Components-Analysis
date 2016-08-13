@@ -30,12 +30,6 @@ namespace Webyneter.ComponentsAnalysis.Core
             public AnalysisPerformedEventArgs(IAnalysisResult result) { Result = result; }
         }
 
-        //public class USPPerformedEventArgs : EventArgs
-        //{
-        //    public DataTable Result { get; private set; }
-        //    public USPPerformedEventArgs(DataTable result) { Result = result; }
-        //}
-
         public class USPPerformedEventArgs : EventArgs
         {
             public double[,] Result { get; private set; }
