@@ -7,9 +7,9 @@ namespace Webyneter.ComponentsAnalysis.Core.Analysis.PCA
 {
     public struct PCAOptions : IAnalysisOptions
     {
-        public DataTable InputData { get { return inputData; } }
-        public AnalysisAlgorithm Algorithm { get { return AnalysisAlgorithm.PCA; } }
-        public AnalysisMethod Method { get { return method; } }
+        public DataTable InputData => inputData;
+        public AnalysisAlgorithm Algorithm => AnalysisAlgorithm.PCA;
+        public AnalysisMethod Method => method;
 
         private readonly DataTable inputData;
         private readonly AnalysisMethod method;

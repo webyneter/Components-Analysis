@@ -53,11 +53,8 @@ namespace Webyneter.ComponentsAnalysis.Core
         public static event EventHandler<AnalysisPerformedEventArgs> KPCAPerformed = delegate { };
         public static event EventHandler<USPPerformedEventArgs> USPPerformed = delegate { };
         
-        public static IEnumerable<KeyValuePair<string, SupportedInputFileFormat>> SupportedInputExtensionFormatMap
-        {
-            get { return extensionFormatMap.AsEnumerable(); }
-        }
-        public static string ProjectFileExtension { get { return projectFileExtension; } }
+        public static IEnumerable<KeyValuePair<string, SupportedInputFileFormat>> SupportedInputExtensionFormatMap => extensionFormatMap.AsEnumerable();
+        public static string ProjectFileExtension => projectFileExtension;
 
         private const string projectFileExtension = ".caproject";
         private static readonly Dictionary<string, SupportedInputFileFormat> extensionFormatMap =
@@ -113,8 +110,8 @@ namespace Webyneter.ComponentsAnalysis.Core
             return false;
         }
 
-        public string Name { get { return Path.GetFileNameWithoutExtension(projectFilePath); } }
-        public string FilePath { get { return projectFilePath; } }
+        public string Name => Path.GetFileNameWithoutExtension(projectFilePath);
+        public string FilePath => projectFilePath;
         public DataTable AnalysisInputData { get; private set; }
         public DataTable USPUniversalInputData { get; private set; }
         public DataTable USPSampleInputData { get; private set; }
@@ -148,10 +145,7 @@ namespace Webyneter.ComponentsAnalysis.Core
                 }
             }
         }
-        public IEnumerable<KeyValuePair<AnalysisAlgorithm, IAnalysisResult>> AnalysisResults
-        {
-            get { return analysisResults.AsEnumerable(); }
-        }
+        public IEnumerable<KeyValuePair<AnalysisAlgorithm, IAnalysisResult>> AnalysisResults => analysisResults.AsEnumerable();
 
         private readonly string projectFilePath;
         [NonSerialized]

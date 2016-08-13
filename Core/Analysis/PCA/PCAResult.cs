@@ -9,16 +9,16 @@ namespace Webyneter.ComponentsAnalysis.Core.Analysis.PCA
     [Serializable]
     public struct PCAResult : IAnalysisResult
     {
-        public DataTable InputData { get { return inputData; } }
-        public double[,] InputDataDeviationScores { get { return inputDataDeviationScores; } }
-        public double[,] InputDataStandardScores { get { return inputDataStandardScores; } }
-        public string[] ColumnNames { get { return columnNames; } }
-        public AnalysisMethod Method { get { return method; } }
-        public DescriptiveMeasureCollection Measures { get { return measures; } }
-        public double[,] CorrelationMatrix { get { return correlationMatrix; } }
-        public double[,] CovarianceMatrix { get { return covarianceMatrix; } }
-        public double[,] ComponentMatrix { get { return componentMatrix; } }
-        public PrincipalComponentCollection PrincipalComponents { get { return principalComponents; } }
+        public DataTable InputData => inputData;
+        public double[,] InputDataDeviationScores => inputDataDeviationScores;
+        public double[,] InputDataStandardScores => inputDataStandardScores;
+        public string[] ColumnNames => columnNames;
+        public AnalysisMethod Method => method;
+        public DescriptiveMeasureCollection Measures => measures;
+        public double[,] CorrelationMatrix => correlationMatrix;
+        public double[,] CovarianceMatrix => covarianceMatrix;
+        public double[,] ComponentMatrix => componentMatrix;
+        public PrincipalComponentCollection PrincipalComponents => principalComponents;
 
         private readonly DataTable inputData;
         private readonly double[,] inputDataDeviationScores;

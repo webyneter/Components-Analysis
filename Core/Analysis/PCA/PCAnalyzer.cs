@@ -6,7 +6,7 @@ namespace Webyneter.ComponentsAnalysis.Core.Analysis.PCA
 {
     internal class PCAnalyzer : IAnalyzer<PCAOptions, PCAResult>
     {
-        public PCAOptions Options { get { return options; } }
+        public PCAOptions Options => options;
 
         private readonly PCAOptions options;
 

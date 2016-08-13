@@ -7,7 +7,7 @@ namespace Webyneter.ComponentsAnalysis.Core.Analysis.KPCA
 {
     internal class KPCAnalyzer : IAnalyzer<KPCAOptions, KPCAResult>
     {
-        public KPCAOptions Options { get { return options; } }
+        public KPCAOptions Options => options;
 
         private readonly KPCAOptions options;
 

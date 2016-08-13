@@ -9,15 +9,15 @@ namespace Webyneter.ComponentsAnalysis.Core.Analysis.KPCA
     [Serializable]
     public struct KPCAResult : IAnalysisResult
     {
-        public DataTable InputData { get { return inputData; } }
-        public double[,] InputDataDeviationScores { get { return inputDataDeviationScores; } }
-        public double[,] InputDataStandardScores { get { return inputDataStandardScores; } }
-        public string[] ColumnNames { get { return columnNames; } }
-        public AnalysisMethod Method { get { return method; } }
-        public DescriptiveMeasureCollection Measures { get { return measures; } }
-        public double[,] ScatterPlotValues { get { return scatterPlotValues; } }
-        public double[,] ComponentMatrix { get { return componentMatrix; } }
-        public PrincipalComponentCollection PrincipalComponents { get { return principalComponents; } }
+        public DataTable InputData => inputData;
+        public double[,] InputDataDeviationScores => inputDataDeviationScores;
+        public double[,] InputDataStandardScores => inputDataStandardScores;
+        public string[] ColumnNames => columnNames;
+        public AnalysisMethod Method => method;
+        public DescriptiveMeasureCollection Measures => measures;
+        public double[,] ScatterPlotValues => scatterPlotValues;
+        public double[,] ComponentMatrix => componentMatrix;
+        public PrincipalComponentCollection PrincipalComponents => principalComponents;
 
         private readonly DataTable inputData;
         private readonly double[,] inputDataDeviationScores;

@@ -8,10 +8,7 @@ namespace Webyneter.ComponentsAnalysis.Core
     [Serializable]
     public sealed class _SerializableSettings
     {
-        public IEnumerable<KeyValuePair<string, object>> SettingNameValueMap
-        {
-            get { return settingNameValueMap.AsEnumerable(); }
-        }
+        public IEnumerable<KeyValuePair<string, object>> SettingNameValueMap => settingNameValueMap.AsEnumerable();
 
         private readonly Dictionary<string, object> settingNameValueMap;
     }
